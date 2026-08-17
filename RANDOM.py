@@ -1,9 +1,9 @@
 import sys
 
 try:
-    import DX
+    import DA
 except ImportError:
     sys.exit()
 
 if __name__ == "__main__":
-    DX.AKASH()
+    DA.AKASH()
